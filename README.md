@@ -1,5 +1,7 @@
 # HitOrNot
-This is a little project that I created for Social Media Managment, a subject that I studied at University Of Catania. I made a script that gives an opportunity to detect an artist that will be trend, with good possibilities, in all charts of the world.
+This is a little project that I created for Social Media Managment, a subject that I studied at University Of Catania. I made a script that gives an opportunity to detect an artist that will be trend, with good possibilities, in all Spotify charts of the world.
+
+I insert two html files where the content is in Italian language. In these files, I explain how to use the Spotify API analyzing different cases of prediction, I play with my extracted characteristics. There is also the file that explain how to use the hitornot.py for my predictions and the finality of this.
 
 # Usage
 Download hitornot.py and execute it with python 3.
