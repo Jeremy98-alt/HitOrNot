@@ -31,7 +31,7 @@ from json.decoder import JSONDecodeError
 import csv
 
 def get_spotify_token():
-    #get username from terminal, user ID is: 1168261438
+    #get username from terminal
     username = sys.argv[1]
 
     #set up a scope, see in https://developer.spotify.com/documentation/general/guides/scopes/
@@ -39,8 +39,8 @@ def get_spotify_token():
 
     token = util.prompt_for_user_token(username,
                                     scope, 
-                                    client_id='b3e30f50066f47c683dc47c1ab15526c',
-                                    client_secret='fefca33bfe9047e78ab42c2ad24fb4a3',
+                                    client_id='insert-your-client-id',
+                                    client_secret='insert-your-client-secret',
                                     redirect_uri='https://google.com')
 
     #type access: Authorization Code Flow
