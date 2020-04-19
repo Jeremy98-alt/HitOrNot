@@ -1,2 +1,8 @@
-# HitOrNot-
-Social Media Managment's Project - University Of Catania 2019/2020
+# HitOrNot
+This is a little project that I created for Social Media Managment, a subject that I studied at University Of Catania. I made a script that gives an opportunity to detect an artist that will be trend, with good possibilities, in all charts of the world.
+
+# Usage
+Download hitornot.py and execute it with python 3.
+
+# Attention
+I use only charts present in 2020-03-04, so the prediction is based only with that day.
